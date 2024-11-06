@@ -74,6 +74,37 @@ button:hover{
     background-color:#8d2500;
 }
 
+#education{
+    padding: 50px;
+    background-color: #ccd2d6;
+}
+#education h2{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.education-card{
+    background: #e0d4d4bc;
+    border: 2px solid rgba(229,229,233,0.929);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.education-card h3{
+    font-size: 1.8rem;
+    color: #ce55ae;
+}
+.education-card p{
+    font-size: 1.4rem;
+    color:#121110;
+    margin: 5px 0;
+}
+.education-card strong{
+    color:#1d1b1b;
+}
+
 
 .skills-section {
     text-align: center;
@@ -175,8 +206,8 @@ button:hover{
 max-width: 600px;
 margin:  0 auto;
 padding: 30px;
-background-color: rgb(243, 210, 243);
-box-shadow:0 4px 12px #6d0364;
+background-color: rgba(250, 170, 250, 0.815);
+box-shadow:0 4px 12px #680860;
 border-radius: 10px;
 }
 .contact-card h2{
@@ -209,8 +240,9 @@ border-radius: 10px;
     font-size: 16px;
 
 }
+
 #project{
-    background-color: #f9f9f9;
+    background-color: #e9cce6e7;
 }
 #project h2{
     font-size: 1.8rem;
@@ -232,7 +264,7 @@ border-radius: 10px;
     box-shadow: 0  4px   8px   rgba(186,148,233,1);
 }
 .project-image img{
-    width: 100%;
+    width: 120%;
     height: 100%;
     object-fit: cover;
 }
@@ -280,8 +312,10 @@ border-radius: 10px;
   
   #blog-section h2 {
     font-size: 2.5em;
-    margin-bottom: 40px;
     color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+
   }
   
   .scroll-container {
@@ -368,7 +402,7 @@ border-radius: 10px;
     margin: 15px auto;
     padding: 20px;
     background-color: #ac539fd8;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.415);
     border-radius: 10px;
     text-align: center;
 }
